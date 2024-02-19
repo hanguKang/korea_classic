@@ -15,8 +15,9 @@
 
 a.link {
 	color: #f54a0e;
-	font-size:24px;
-	position:absolute;
+	text-decoration: none;
+	font-size:32px;
+	position:static;
 }
 
 .test{color:green;}
