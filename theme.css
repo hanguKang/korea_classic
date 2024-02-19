@@ -16,9 +16,9 @@
 a.link {
 	color: #f54a0e;
 	text-decoration: none;
-	font-size:11px;
-	position:absolute;
-	line-height:2.6;
+	font-size:14px;
+	position:relative;
+	line-height:1.5;
 }
 
 .test{color:green;}
