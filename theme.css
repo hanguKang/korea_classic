@@ -16,7 +16,8 @@
 a.link {
 	color: #f54a0e;
 	text-decoration: none;
-	line-height:1.5;
+	font-size:inherit;
+	position:static;
 }
 
 .test{color:green;}
@@ -4703,7 +4704,7 @@ html[lang|=ko] .widget-tab-banner {
 				background-color:#f3a01d;
 			} 
 			.banner-wrap:hover {
-				background-color:#b75b06;
+				background-color:#eb9206;
 			} 
 			.banner-wrap .small {
 				color:#000;
