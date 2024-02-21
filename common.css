@@ -1199,7 +1199,11 @@ hr.dashed {
 	background: #f0f7ff !important;
 }
 .txt_green {
+<<<<<<< HEAD
 	color: #2e9d9a !important;
+=======
+	color: #158481 !important;
+>>>>>>> 95cb370b8810537ea17154ee5f63576c3e410b9a
 }
 .txt_green2 {
 	color: #238459 !important;
@@ -1707,12 +1711,20 @@ blockquote {
 
 .text-muted,
 .text-muted a {
+<<<<<<< HEAD
 	color: #777;
+=======
+	color: #707070;
+>>>>>>> 95cb370b8810537ea17154ee5f63576c3e410b9a
 }
 
 .text-danger,
 .text-danger a {
+<<<<<<< HEAD
 	color: #EB5D48;
+=======
+	color: #e61f00;
+>>>>>>> 95cb370b8810537ea17154ee5f63576c3e410b9a
 }
 
 .text-primary,
@@ -1808,7 +1820,11 @@ dd, dt {
 
 .pagination > li > a,
 .pagination > li > span {
+<<<<<<< HEAD
 	color: #888;
+=======
+	color: #757575;
+>>>>>>> 95cb370b8810537ea17154ee5f63576c3e410b9a
 	background-color: #fff;
 	border: 1px solid #ddd;
 }
@@ -2167,7 +2183,11 @@ a.btn-xs,
 .btn.btn-danger {
 	border-left-color: #ef5d5c;
 	border-bottom-color: #ef5d5c;
+<<<<<<< HEAD
 	background-color: #e23b39;
+=======
+	background-color: #dd2a27;
+>>>>>>> 95cb370b8810537ea17154ee5f63576c3e410b9a
 	box-shadow: 0 3px #9e1614;
 }
 
@@ -2176,7 +2196,11 @@ a.btn-xs,
 .btn.btn-danger.hover {
 	border-left-color: #e23b39;
 	border-bottom-color: #e23b39;
+<<<<<<< HEAD
 	background-color: #c81b19;
+=======
+	background-color: #b82623;
+>>>>>>> 95cb370b8810537ea17154ee5f63576c3e410b9a
 	box-shadow: 0 3px #950707;
 }
 

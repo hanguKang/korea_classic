@@ -14,13 +14,21 @@
 *::-moz-selection {background:#32ad76; color:#fff;text-shadow:none;}
 
 a.link {
-	color: #f54a0e;
-	font-size:24px;
-	position:absolute;
-	line-height:1.1;
+	color: #f54a0e
 }
 
-.test{color:green;}
+
+.bl{letter-spacing: -.05em;
+    padding: 12px 0;
+    margin-bottom: 5px;
+    color: #fff;
+    background: #1c823e;}
+.gr{letter-spacing: -.05em;
+    padding: 12px 0;
+    margin-bottom: 5px;
+    color: #fff;
+    background: #4f6fb5;}
+
 
 a.link:hover {
 	color: #e23e04;
@@ -34,8 +42,8 @@ a.link.newWd:after {
 	content: "\f08e";
 }
 .form-inline .input-group {
-	background:#999;
-	overflow:hidden;
+	
+	
 	border-top-right-radius:3px;
 	border-bottom-right-radius:3px;
 }
@@ -81,7 +89,7 @@ a.link.newWd:after {
 .btn_link {
 	display: inline-block;
 	color: #fff;
-	background: #879095;
+	background: #6e777c;
 	/*padding:6px 20px;*/
 }
 .btn_link span {
@@ -166,7 +174,7 @@ a.link.newWd:after {
 }
 
 .h5Tit {
-	color:#29A46D;
+	color:#198655;
 	font-size: 125%;
 	margin-bottom:5px;
 	font-weight:500;
@@ -405,7 +413,8 @@ a.link.newWd:after {
 	color: #222;
 	font-size: 125%;
 	font-weight: 700;
-	line-height: 50px;
+	line-height: 43px;
+margin-top:3px;
 	text-align: center;
 	text-decoration: none;
 	border-right: 0;
@@ -440,7 +449,7 @@ a.link.newWd:after {
 	height:380px;
 	padding:3px 15px;
 	margin:0;
-	margin-top:1px;
+	margin-top:5px;
 	background-color:#f4f6fe;
 	-webkit-transition:opacity .3s ease,
 	background-color .3s ease,
@@ -820,7 +829,8 @@ html[lang|=ko] .sidebar_wrap {
 	font-size:110%;
 	text-decoration:none;
 	display:block;
-	padding:10px 8px 9px 2px;
+	margin-top:2px;
+	padding:8px 8px 9px 2px;
 }
 .sidebar_wrap .list-group-item a[target="_blank"] span {
 	background: url("img/icon_blank.gif") no-repeat 100% 50%;
@@ -907,6 +917,7 @@ html[lang|=ko] .sidebar_wrap {
 	position:relative;
 	font-size:95%;
 	padding-left:10px;
+	margin-top:3px;
 	background:#f5f5f5;
 	/*border-bottom:1px solid #ddd;*/
 }
@@ -1227,7 +1238,7 @@ html[lang|=ko] .etc-navi-slider-group {
 }
 
 .etc-navi-slider-group .etc_tab ul {
-margin-top: 2px;
+
 	border-left: 1px solid #cdced3;
 }
 
@@ -2349,7 +2360,7 @@ html[lang|=ko] .sub_visual .container span.small {
 
 /* 하단 영역 기본테마 */
 .footer_wrap {
-	color:#999;
+	color:#9d9b9b;
 	margin-top:60px;
 	background-color:#2a3744;
 }
@@ -2408,7 +2419,7 @@ html[lang|=ko] .sub_visual .container span.small {
 }
 .footer_navi .btn strong {
 	font-weight:400;
-	color:#dd642f;
+	color:#f9763e;
 }
 .footer_navi .btn:hover,
 .footer_navi .btn:active,
@@ -2927,7 +2938,7 @@ html[lang|=ko] .contents-box.box-main .txt-vertical p {
 
 /* Board Common */
 .pagetotal {
-	color: #888;
+	color: #757575;
 	font-size: 90%;
 	line-height: 32px;
 }
@@ -3521,13 +3532,14 @@ html[lang|=ko] .table-calendar tbody td.event .area div {
 
 @media (min-width:768px) {
 	.form-inline.search-form .form-control {
-		width: 100%;
+		width: 99%;
 		max-width: 180px;
 	}
 
 	.form-inline.search-form .btn,
 	.form-inline.search-form .btn-group > .btn {
 		top: -1px !important;
+margin-left: 2px;
 	}
 }
 
@@ -3549,7 +3561,7 @@ html[lang|=ko] .table-calendar tbody td.event .area div {
 }
 
 /* 게시판 리스트타입선택 */
-.listType_tab a {padding:6px 4px 3px;color:#ddd;border:1px solid #d6d6d6; font-size: 1.4em;}
+.listType_tab a {padding:6px 4px 3px;color:#517e4e;border:1px solid #d6d6d6; font-size: 1.4em;}
 .listType_tab a.on {padding:6px 4px 3px;color:#333;border:3px solid #375a2f; font-size: 1.4em;}
 
 /* board_list_select 160311 추가*/
@@ -3588,7 +3600,7 @@ html[lang|=ko] .table-calendar tbody td.event .area div {
 	text-shadow:-1px -1px 0 rgba(0, 0, 0, .1);
 	padding:10px 20px;
 	background-color:#333;
-	background-color:rgba(0, 0, 0, .5);
+	background-color:rgba(0, 0, 0, .6);
 	width:100%;
 }
 .slide-right-contents .portfolio .caption {
@@ -4257,10 +4269,10 @@ html[lang|=ko] .table-calendar tbody td.event .area div {
 .bg1 .ribbon-inner{background-color:#52A71B;}
 .bg1 .ribbon-inner:after {border-top-color:#4c941d;border-right-color:#4c941d;}
 /* 2일성록 */ 
-.bg2 .ribbon-inner{background-color:#34a281;}
+.bg2 .ribbon-inner{background-color:#088761;}
 .bg2 .ribbon-inner:after {border-top-color:#40b290;border-right-color:#40b290;}
 /* 3고전번역총서 */ 
-.bg3 .ribbon-inner{background-color:#2E9EAB;}
+.bg3 .ribbon-inner{background-color:#00818f;}
 .bg3 .ribbon-inner:after {border-top-color:#47b8c6;border-right-color:#47b8c6;}
 /* 4조선왕조실록 */ 
 .bg4 .ribbon-inner{background-color:#41989c;}
@@ -4287,10 +4299,10 @@ html[lang|=ko] .table-calendar tbody td.event .area div {
 .bg11 .ribbon-inner{background-color:#e07803;}
 .bg11 .ribbon-inner:after {border-top-color:#ec9940;border-right-color:#ec9940;}
 /* 12고전적정리이론총서 */
-.bg12 .ribbon-inner{background-color:#df6f3e;}
+.bg12 .ribbon-inner{background-color:#c25700;}
 .bg12 .ribbon-inner:after {border-top-color:#c5592a;border-right-color:#c5592a;}
 /* 13기타도서 */
-.bg13 .ribbon-inner{background-color:#FB5E5E;}
+.bg13 .ribbon-inner{background-color:#df3030;}
 .bg13 .ribbon-inner:after {border-top-color:#e9595b;border-right-color:#e9595b;}
 /* right */
 /* business */
@@ -4390,6 +4402,7 @@ html[lang|=ko] .table-calendar tbody td.event .area div {
 
 .form-signin .input-group {
 	margin-top: -1px;
+	margin-bottom: 3px;
 }
 
 .form-signin .check-save {
@@ -4701,7 +4714,7 @@ html[lang|=ko] .widget-tab-banner {
 				background-image:url("img/dot2.png");
 				background-repeat:repeat;
 				background-position:0 0;
-				background-color:#f3a01d;
+				background-color:#a86800;
 			} 
 			.banner-wrap:hover {
 				background-color:#eb9206;
@@ -4852,8 +4865,9 @@ html[lang|=ko] .widget-tab-banner {
 	text-shadow:-1px -1px 0 rgba(0, 0, 0, .1);
 	/* padding:14px 0; */
 	margin-bottom:15px;
+	margin-top:3px;
 	background:#36bd82;
-	background:#3A936C;
+	background:#258359;
 	border:1px solid #ddd;
 	border-top:0;
 	-webkit-border-radius:1px;
@@ -5078,6 +5092,7 @@ html[lang|=ko] .widget-tab {
 	position:relative;
 	z-index:2;
 	float:left;
+margin-right:3px;
 	background-color:#fff;
 }
 .widget-tab .title a {
@@ -5095,9 +5110,9 @@ html[lang|=ko] .widget-tab {
 	position:relative;
 	top:-1px;
 	padding:6px 20px 7px;
-	color: #2b9566;
+	color: #238659;
 	background-color:#fff;
-	border-top: 4px solid #2b9566 !important;
+	border-top: 4px solid #238659 !important;
 	border-bottom:1px solid #fff !important;
 }
 .widget-tab .title.on a:after {
@@ -5115,7 +5130,7 @@ html[lang|=ko] .widget-tab {
 	top:1px;
 	height:42px;
 	display:block;
-	color:#888;
+	color:#737373;
 	font-size:90%;
 	line-height:43px;
 	text-align:center;
@@ -5306,7 +5321,7 @@ ul.basic-list li .date {
 .adlist .ad_ctrl .ad_ctrl_btn {
 	position:absolute;
 	top:18px;
-	left:45px;
+	left:49px;
 	width:21px;
 	height:20px;
 	display:block;
@@ -5325,7 +5340,7 @@ ul.basic-list li .date {
 	background-image:url("../img/ad_ctrl_left.png");
 }
 .adlist .ad_ctrl .ad_right {
-	left:65px;
+	left:73px;
 	background-image:url("../img/ad_ctrl_right.png");
 }
 .adlist .ad_ctrl .ad_list {
@@ -5341,7 +5356,7 @@ ul.basic-list li .date {
 }
 .adlist .ad_list_set ul {
 	width:100%;
-	padding:0;
+	padding:3px 2px 3px 4px;
 	margin:0;
 }
 .adlist .ad_list_set ul li {
@@ -5608,7 +5623,8 @@ ul.basic-list li .date {
 } /* col2 */
 .tablist.col4 li,
 ul.col4 li {
-	width: 25%;
+	width: 24%;
+	margin: 2px;
 } /* col4 */
 #sub.itkc_110 .tablist.col4 li {width: 33.333333%;}
 .ul_list, .ul_list4, .ol_list li ul {
@@ -6243,7 +6259,7 @@ ul.col4 li {
 	top: 3px;
 	left: 0;
 	width: 80px;
-	color: #0C8F54;
+	color: #0f804d;
 	font-weight: 700;
 	text-align: center;
 }
@@ -6300,6 +6316,7 @@ ul.col4 li {
 	overflow:hidden;
 	border-bottom:1px dashed #dedede;
 	padding-bottom:10px;
+padding-left:5px;
 	margin-bottom:30px;
 }
 .sitemapWrap > ul > li > dl > dt {
@@ -6631,7 +6648,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 .logo_color .c_a8a9ad {background:#a8a9ad;}
 .logo_color .c_ceb443 {background:#ceb443;}
 /* 조직도 */
-.org_wrap {background:url("/uploads/CONTENTS/site/itkc/org_bg3.png") no-repeat 50px 26px;}
+/*.org_wrap {background:url("/uploads/CONTENTS/site/itkc/org_bg3.png") no-repeat 50px 26px;}*/
 .org_wrap .org_box {width:14.28571428571429%;float:left;}
 .org_wrap .org_box_offset {margin-left:14.28571428571429%;}
 .org_wrap a {display:block;}
@@ -6659,7 +6676,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 .book dl dt {color:#000;width:94px;float:left;clear:both;font-weight:500;box-sizing:border-box;padding-left: 9px;background: url("img/bul_dot.png") no-repeat 2px 10px;}
 .book dl dd {float:left; width:80%;word-break:break-all;}
 .book .contents {color:#000;padding-left: 9px;background: url("img/bul_dot.png") no-repeat 2px 10px;}
-.book .catagory_name {color:#fff;font-size:95%;text-shadow:-1px -1px 0 rgba(0, 0, 0, .1);padding:5px 10px;background-color:#333;background-color:rgba(0, 0, 0, .5);width:100%;}
+.book .catagory_name {color:#fff;font-size:95%;text-shadow:-1px -1px 0 rgba(0, 0, 0, .1);padding:5px 10px;background-color:#333;background-color:rgba(0, 0, 0, .6);width:100%;}
 
 /* 정부3.0 정보공개 */
 .accodion-wrap {display:none;display:block;}
@@ -6681,7 +6698,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 
 
 /* 알림존 */
-.mPopupZone {position:relative; border-bottom:1px solid rgba(255,255,255,0.5); background:#fff; overflow:hidden; box-sizing:border-box;}
+.mPopupZone {position:relative; border-bottom:1px solid rgba(255,255,255,0.5); background:#fff; overflow:visible; box-sizing:border-box;}
 .mPopupZone .mPopupBtn {position:absolute; top:3px; left:3px;}
 .mPopupZone .cycle-pager {float:left;}
 .mPopupZone .cycle-pager a {display:inline-block; width:18px; height:18px; margin-left:5px;background:#fff; box-sizing:border-box; text-indent:-9999px; cursor:pointer;-webkit-border-radius: 16px;-moz-border-radius: 16px;border-radius:16px;}
@@ -6731,7 +6748,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 	bottom: 0;
 	display:inline-block;
 	height:35px;
-	background:rgba(0,0,0,.6);
+	background:rgba(0,0,0,.7);
 	z-index:1;
 }
 .widget-popup .bx-wrapper .bx-controls .bx-controls-auto .bx-start, 
@@ -6766,7 +6783,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 	font-weight:400;
 	margin-left:35px;
 	padding: 8px 10px 6px 5px;
-	background:rgba(0,0,0,.6);
+	background:rgba(0,0,0,.7);
 	z-index:1;
 }
 
@@ -6865,3 +6882,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 .default_table tbody th{text-align:left;color:#3fa3a1}
 .default_table tbody th{background:#fff; text-align:center;}
 .default_table th.bbc, .default_table td.bbc {border-bottom-color: #3fa3a1;}
+
+
+/* 고전산책 - 공통 */
+.table_classic {
+	font-family: Malgun Gothic, NanumGothic, Dotum, Gulim, New Gulim;
+}
+.table_classic .classic_writer {
+	color: #707070; line-height: 1.6; letter-spacing: -0.05em; font-size: 12px; margin-right: 8px;
+}
+.table_classic .classic_dirct {
+	color: #427a05; font-weight: bold;
+}
+.table_classic .sub_tit {
+	width: 90px; height: 26px; color: #FFFFFF; line-height: 24px; letter-spacing: -2px;  font-size: 15px; 
+	display: inline-block; padding: 1px; border-radius: 20px;
+}
+.classic_round {
+	text-align: center;
+}
+.classic_round .ord_txt {
+	display: inline-block; padding: 1px; border-radius: 20px; background-color: #FFFFFF; 
+}
+
+
+/* 고전산책 - 카테고리 별 : 한시감상 > 고전명구 > 고전산문 순서 */
+.classic_poem .ord_txt {
+	width: 158px; height: 23px; color: #648019; line-height: 22px; letter-spacing: -1px;  font-size: 12px;
+}
+.classic_poem .main_tit {
+	padding: 35px 0px; color: #859D43; line-height: 1.2; letter-spacing: -4px;  font-size: 35px;
+}
+.classic_poem .poem_content {
+	color: #64733a; line-height: 2; letter-spacing: -0.06em; font-size: 14px; margin-left: 50px;
+}
+.classic_poem .classic_round .sub_tit {
+	background-color: #648019;
+}
+
+.classic_phrase .ord_txt{
+	width: 158px; height: 23px; color: #527a89; line-height: 22px; letter-spacing: -1px;  font-size: 12px;
+}
+.classic_phrase .main_tit {
+	padding: 35px 0px; color: #457d92; line-height: 1.2; letter-spacing: -4px;  font-size: 35px;
+}
+.classic_phrase .classic_round .sub_tit {
+	background-color: #666666;
+}
+
+.classic_prose .ord_txt{
+	width: 158px; height: 23px; color: rgb(167, 79, 86); line-height: 22px; letter-spacing: -1px;  font-size: 12px;
+}
+.classic_prose .main_tit {
+	padding: 35px 0px; color: #c0545d; line-height: 1.2; letter-spacing: -4px;  font-size: 32px;
+}
+.classic_prose .classic_round .sub_tit {
+	background-color: #c0545d;
+}
