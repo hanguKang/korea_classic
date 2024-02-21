@@ -6884,7 +6884,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 .default_table th.bbc, .default_table td.bbc {border-bottom-color: #3fa3a1;}
 
 
-/* 고전산책 - 공통 */
+/* 사업성과 > 고전산책 : 전체 공통 적용 사항  _ 2024.02.21*/
 .table_classic {
 	font-family: Malgun Gothic, NanumGothic, Dotum, Gulim, New Gulim;
 }
@@ -6904,9 +6904,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 .classic_round .ord_txt {
 	display: inline-block; padding: 1px; border-radius: 20px; background-color: #FFFFFF; 
 }
+/* 고전산책 : 전체 공통 적용 사항 End */
 
 
-/* 고전산책 - 카테고리 별 : 한시감상 > 고전명구 > 고전산문 순서 */
+/* 사업성과 > 고전산책 : 카테고리 별 ( 한시감상, 고전명구, 고전산문 )  _ 2024.02.21 */
+/* 한시감상 Start */
 .classic_poem .ord_txt {
 	width: 158px; height: 23px; color: #648019; line-height: 22px; letter-spacing: -1px;  font-size: 12px;
 }
@@ -6919,7 +6921,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 .classic_poem .classic_round .sub_tit {
 	background-color: #648019;
 }
+/* 한시감상 End */
 
+/* 고전명구 Start */
 .classic_phrase .ord_txt{
 	width: 158px; height: 23px; color: #527a89; line-height: 22px; letter-spacing: -1px;  font-size: 12px;
 }
@@ -6929,7 +6933,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 .classic_phrase .classic_round .sub_tit {
 	background-color: #666666;
 }
+/* 고전명구 End */
 
+/* 고전산문 Start */
 .classic_prose .ord_txt{
 	width: 158px; height: 23px; color: rgb(167, 79, 86); line-height: 22px; letter-spacing: -1px;  font-size: 12px;
 }
@@ -6939,3 +6945,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 .classic_prose .classic_round .sub_tit {
 	background-color: #c0545d;
 }
+/* 고전산문 End */
