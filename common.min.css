@@ -1222,7 +1222,7 @@ hr.dashed {
 }
 
 .txt_green {
-  color: #2e9d9a !important
+  color: #158481 !important
 }
 
 .txt_green2 {
@@ -1238,7 +1238,7 @@ hr.dashed {
 }
 
 .txt_orange {
-  color: #ff4800 !important
+  color: #d14900 !important
 }
 
 .txt_red {
@@ -1254,7 +1254,7 @@ hr.dashed {
 }
 
 .txt_puple {
-  color: #bb5c82 !important
+  color: #b4557b !important
 }
 
 .fw400 {
@@ -1738,7 +1738,7 @@ blockquote {
 
 .text-danger,
 .text-danger a {
-  color: #EB5D48
+  color: #e61f00
 }
 
 .text-primary,
@@ -1831,11 +1831,11 @@ dt {
   margin: 2px 0 7px
 }
 
-.pagination>li>a,
-.pagination>li>span {
-  color: #888;
-  background-color: #fff;
-  border: 1px solid #ddd
+.pagination > li > a,
+.pagination > li > span {
+	color: #757575;
+	background-color: #fff;
+	border: 1px solid #ddd;
 }
 
 .pagination>li>a:hover,
@@ -2165,19 +2165,19 @@ a.btn-xs,
 }
 
 .btn.btn-danger {
-  border-left-color: #ef5d5c;
-  border-bottom-color: #ef5d5c;
-  background-color: #e23b39;
-  box-shadow: 0 3px #9e1614
+	border-left-color: #ef5d5c;
+	border-bottom-color: #ef5d5c;
+	background-color: #dd2a27;
+	box-shadow: 0 3px #9e1614;
 }
 
 .btn.btn-danger:hover,
 .btn.btn-danger:active,
 .btn.btn-danger.hover {
-  border-left-color: #e23b39;
-  border-bottom-color: #e23b39;
-  background-color: #c81b19;
-  box-shadow: 0 3px #950707
+	border-left-color: #e23b39;
+	border-bottom-color: #e23b39;
+	background-color: #b82623;
+	box-shadow: 0 3px #950707;
 }
 
 .btn.btn-black {
