@@ -14,7 +14,7 @@
 *::-moz-selection {background:#32ad76; color:#fff;text-shadow:none;}
 
 a.link {
-	color: #f54a0e
+	color: #d12a00;
 }
 
 
@@ -5542,7 +5542,7 @@ ul.basic-list li .date {
 	background: #eee;
 }
 .con_box7 dl dt {
-	background: #119cd2;
+	background: #007cad;
 	color: #fff;
 	padding: 10px;
 	font-size: 105%;
