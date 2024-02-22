@@ -2426,7 +2426,7 @@ html[lang|=ko] .sub_visual .container span.small {
 .footer_navi .btn {
 	height:30px;
 	font-size:100%;
-	color:#999;
+	color:#9e9e9e;
 	padding:5px 8px !important;
 }
 .footer_navi .btn:first-child {
@@ -5168,7 +5168,7 @@ margin-right:3px;
 }
 /* 고전하단관련 */
 .widget-tab.notice_tab_1 .caption a {
-	color: #2b9566;
+	color: #288059;
 	font-size:115%;
 }
 .widget-tab.notice_tab_1 .small-hb {
