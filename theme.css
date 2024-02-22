@@ -6780,6 +6780,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 .widget-popup .bx-wrapper .bx-controls-auto .bx-start:focus {
 	background:url("../img/btn_pz_play.png") no-repeat 0 0;
 }
+.widget-popup .bx-wrapper .bx-controls-auto .bx-start:focus{
+	outline:1px solid #fff !important;
+}
 .widget-popup .bx-wrapper .bx-controls-auto .bx-stop,
 .widget-popup .bx-wrapper .bx-controls-auto .bx-stop:hover,
 .widget-popup .bx-wrapper .bx-controls-auto .bx-stop.active,
