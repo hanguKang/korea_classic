@@ -2443,6 +2443,9 @@ html[lang|=ko] .sub_visual .container span.small {
 	background-color:transparent !important;
 	text-decoration:none !important;
 }
+.footer_navi .btn:focus{
+	outline:1px dotted #ffffff !important;
+}
 .footer_navi i.fa-facebook-square {
 	color:#275276;
 	color:#2652b2;
@@ -6779,9 +6782,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 .widget-popup .bx-wrapper .bx-controls-auto .bx-start.active,
 .widget-popup .bx-wrapper .bx-controls-auto .bx-start:focus {
 	background:url("../img/btn_pz_play.png") no-repeat 0 0;
-}
-.widget-popup .bx-wrapper .bx-controls-auto .bx-start:focus{
-	outline:1px solid #fff !important;
 }
 .widget-popup .bx-wrapper .bx-controls-auto .bx-stop,
 .widget-popup .bx-wrapper .bx-controls-auto .bx-stop:hover,
