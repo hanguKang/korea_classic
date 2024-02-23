@@ -6914,7 +6914,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 	font-family: Malgun Gothic, NanumGothic, Dotum, Gulim, New Gulim;
 }
 .table_classic .classic_writer {
-	color: #707070; line-height: 1.6; letter-spacing: -0.05em; font-size: 12px; margin-right: 8px;
+	color: #6b6b6b; line-height: 1.6; letter-spacing: -0.05em; font-size: 12px; margin-right: 8px;
 }
 .table_classic .classic_dirct {
 	color: #427a05; font-weight: bold;
@@ -6927,7 +6927,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 	text-align: center;
 }
 .classic_round .ord_txt {
-	display: inline-block; padding: 1px; border-radius: 20px; background-color: #FFFFFF; 
+	display: inline-block; padding: 4px; border-radius: 20px; background-color: #FFFFFF; 
 }
 /* 고전산책 : 전체 공통 적용 사항 End */
 
@@ -6935,10 +6935,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 /* 사업성과 > 고전산책 : 카테고리 별 ( 한시감상, 고전명구, 고전산문 )  _ 2024.02.21 */
 /* 한시감상 Start */
 .classic_poem .ord_txt {
-	width: 158px; height: 23px; color: #648019; line-height: 22px; letter-spacing: -1px;  font-size: 12px;
+	color: #648019; line-height: 22px; letter-spacing: -1px;  font-size: 12px;
 }
 .classic_poem .main_tit {
-	padding: 35px 0px; color: #859D43; line-height: 1.2; letter-spacing: -4px;  font-size: 35px;
+	padding: 35px 0px; color: #5e8000; line-height: 1.2; letter-spacing: -4px;  font-size: 35px;
 }
 .classic_poem .poem_content {
 	color: #64733a; line-height: 2; letter-spacing: -0.06em; font-size: 14px; margin-left: 50px;
@@ -6950,7 +6950,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 
 /* 고전명구 Start */
 .classic_phrase .ord_txt{
-	width: 158px; height: 23px; color: #527a89; line-height: 22px; letter-spacing: -1px;  font-size: 12px;
+	color: #527a89; line-height: 22px; letter-spacing: -1px;  font-size: 12px;
 }
 .classic_phrase .main_tit {
 	padding: 35px 0px; color: #457d92; line-height: 1.2; letter-spacing: -4px;  font-size: 35px;
@@ -6962,7 +6962,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 
 /* 고전산문 Start */
 .classic_prose .ord_txt{
-	width: 158px; height: 23px; color: rgb(167, 79, 86); line-height: 22px; letter-spacing: -1px;  font-size: 12px;
+	color: rgb(167, 79, 86); line-height: 22px; letter-spacing: -1px;  font-size: 12px;
 }
 .classic_prose .main_tit {
 	padding: 35px 0px; color: #c0545d; line-height: 1.2; letter-spacing: -4px;  font-size: 32px;
