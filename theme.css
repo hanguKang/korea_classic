@@ -6927,7 +6927,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 	text-align: center;
 }
 .classic_round .ord_txt {
-	display: inline-block; padding: 4px; border-radius: 20px; background-color: #FFFFFF; 
+	display: inline-block; padding: 4px 14px; border-radius: 20px; background-color: #FFFFFF; 
 }
 /* 고전산책 : 전체 공통 적용 사항 End */
 
