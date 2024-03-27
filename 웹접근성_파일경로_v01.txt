@@ -1,0 +1,35 @@
+백호소프트 김기봉 : 010-3240-8387
+
+[메인페이지] (/main.do)
+/data/itkc/webapps/WEB-INF/jsp/cms/site/itkc/include/main.jsp
+
+[레이어팝업] (1일간 열지 않음 누르면 바로닫힘)
+/data/itkc/webapps/WEB-INF/jsp/cms/site/itkc/include/popup_layer.jsp
+
+[회원가입] (/regist.do)
+  step 01 실명인증
+  /data/itkc/webapps/include/template/template_certification.jsp
+
+  step 02 개인정보수집동의
+  /data/itkc/webapps/WEB-INF/jsp/cms/template/member/regist_agree.jsp
+  
+  step 03 회원정보 입력
+  /data/itkc/webapps/WEB-INF/jsp/cms/template/member/regist_join.jsp
+    ( 내부에 include 참조 )
+	
+  step 04 회원가입 완료
+  /data/itkc/webapps/WEB-INF/jsp/cms/template/member/regist_complete.jsp
+  
+[고전사계 > 정기구독]
+  구독신청
+  /data/itkc/webapps/WEB-INF/jsp/cms/extra/subs/subApply.jsp
+  
+  주소변경
+  /data/itkc/webapps/WEB-INF/jsp/cms/extra/subs/subUpdate.jsp
+   
+  구독해지
+  /data/itkc/webapps/WEB-INF/jsp/cms/extra/subs/subCancel.jsp
+  
+[정보공개 > 국가고전번역 통계정보 > 역사문헌 통계, 고전번역 DB 통계]
+  그래프 정보(script)
+  /data/itkc/webapps/WEB-INF/jsp/cms/site/itkc/template/content/contents.jsp  

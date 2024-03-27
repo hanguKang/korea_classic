@@ -2252,6 +2252,7 @@ html[lang|=ko] .slide-wrap .slide-frame > div.text-muted {
 .slide-right-contents .frame {
 	padding:30px 0 30px 35px;
 }
+html[lang|=ko] .slide-wrap .slide-frame > div.h3 h3{font-size:28px; color:#fff; font-weight:300;}
 
 
 /* 서브 상단 비쥬얼 영역 */
@@ -2447,9 +2448,7 @@ html[lang|=ko] .sub_visual .container span.small {
 	outline:1px dotted #ffffff !important;
 }
 .footer_navi i.fa-facebook-square {
-	color:#275276;
-	color:#2652b2;
-	color:#2551a8;
+	color:#92b6ff;
 }
 .footer_navi i.fa-twitter-square {
 	color:#2bd9fc;
@@ -5023,6 +5022,9 @@ html[lang|=ko] .total-search-wrap {
 	font-size:125%;
 	margin-bottom:7px;
 }
+.total-search-wrap .frame .title a[href="http://db.itkc.or.kr/"]:focus{
+	outline:1px dotted #fff !important;
+}
 .total-search-wrap .frame .btn {
 	height:34px !important;
 	padding:4px 14px !important;
@@ -5030,6 +5032,9 @@ html[lang|=ko] .total-search-wrap {
 	background-color: #e3ad2d;
 	border-color: #fff;
 	color: #3b3f4b;
+}
+.total-search-wrap .frame .btn:focus {
+	outline:1px dotted #fff !important; 
 }
 .total-search-wrap .frame .input-group .form-control {
 	border-color: #fff;
@@ -6722,9 +6727,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 .mPopupZone {position:relative; border-bottom:1px solid rgba(255,255,255,0.5); background:#fff; overflow:visible; box-sizing:border-box;}
 .mPopupZone .mPopupBtn {position:absolute; top:3px; left:3px;}
 .mPopupZone .cycle-pager {float:left;}
-.mPopupZone .cycle-pager a {display:inline-block; width:18px; height:18px; margin-left:5px;background:#fff; box-sizing:border-box; text-indent:-9999px; cursor:pointer;-webkit-border-radius: 16px;-moz-border-radius: 16px;border-radius:16px;}
+.mPopupZone .cycle-pager a {position:relative; display:inline-block; width:18px; height:18px; margin-left:5px;background:#fff; box-sizing:border-box; text-indent:-9999px; cursor:pointer;-webkit-border-radius: 16px;-moz-border-radius: 16px;border-radius:16px;}
+.mPopupZone .cycle-pager a:focus{outline:1px dotted #fff !important;  outline-offset: 2px; border-radius:50%;}
+.mPopupZone .cycle-pager a:focus:before{content:''; position:absolute;  width:18px; height:18px; left:0; top:0; border-radius:50%; outline:1px dotted #000 !important; outline-offset: 4px;}
 .mPopupZone .cycle-pager a.cycle-pager-active {background:#000; border: 2px solid #fff;}
-.mPopupZone .vis_stop {float:left; display:block; margin-left:5px; line-height:0;}
+.mPopupZone .vis_stop {position:relative; float:left; display:block; margin-left:5px; line-height:0;}
+.mPopupZone .vis_stop:focus{outline:1px dotted #fff !important;  outline-offset: 2px; border-radius:50%;}
+.mPopupZone .vis_stop:focus:before{content:''; position:absolute;  width:18px; height:18px; left:0; top:0; border-radius:50%; outline:1px dotted #000 !important; outline-offset: 4px;}
 .mPopupZone .mPopupImg li {width:100%;float:left; font-size:0; line-height:0;z-index:0 !important;}
 .mPopupZone .mPopupImg li:not(:first-child) {display:none;}
 
@@ -6816,10 +6825,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 .widget-popup .bx-wrapper .bx-next {
 	position: absolute;
 	top: 50%;
-	width: 35px;
-	height: 35px;
+	width: 40px;
+	height: 40px;
 	border: 0;
-	background:url("../img/btn_popupTop_prev.png") no-repeat 0 0;
+	background:rgba(20,20,20,0.8) url("../img/btn_popupTop_prev.png") no-repeat 50% 50%;
 	z-index:1;
 }
 .widget-popup .bx-wrapper .bx-prev {
@@ -6827,7 +6836,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 }
 .widget-popup .bx-wrapper .bx-next { 
 	right:8px;
-	background:url("../img/btn_popupTop_next.png") no-repeat 100% 0;
+	background:rgba(20,20,20,0.8) url("../img/btn_popupTop_next.png") no-repeat 50% 50%;
 }
 .widget-popup .bx-wrapper .bx-prev:hover,
 .widget-popup .bx-wrapper .bx-prev:focus {
@@ -6836,7 +6845,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 .widget-popup .bx-wrapper .bx-next:hover,
 .widget-popup .bx-wrapper .bx-next:focus {
 	opacity:1;
-	background: url("../img/btn_popupTop_next.png") no-repeat 100% 0;
 }
 .widget-popup .bx-wrapper  .bx-viewport {overflow:visible !important}
 @media (max-width:767px) {
@@ -6971,3 +6979,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdddd', end
 	background-color: #c0545d;
 }
 /* 고전산문 End */
+
+/*2024.03.27 고전사계 정기 구독*/
+.input_v_align{
+  display: flex; align-items:center;
+}
+.input_v_align input[type="checkbox"]{margin:0;}
+.input_v_align label.checkbox-inline{padding-top:0;}
+
+
+
+.place_color::placeholder {color: #e61f00;}
+
+.terms_overflow {
+	max-height: auto; 
+}
+
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="mPopupZone mP2">
+    <h3 class="sr-only">팝업영역</h3>
+    <div class="mPopupImg">
+      <ul class="cycle-slideshow" data-cycle-timeout="3000" data-cycle-pager="#paging2" data-cycle-pager-template="<a href=# title = '{{slideNum}} 번 슬라이드'></a>">
+  <%
+  int idx = 1;
+  for(CmsPopupInfoVO popup : popupZoneList) {
+  %>
+      <li>
+                          <%--2019년2월19일 김현수 class 추가 --%>
+        <a href="<%=popup.getLinkUrl()%>" target="_<%=popup.getLinkTarget()%>" class="popup-menu">
+  <%
+    if ("img".equals(popup.getContentsType())) {
+  %>
+          <img src="/${siteInfo.loginStr}/cmmn/viewImage.do?idx=<%=popup.getPiIdx()%>&amp;pt=zone&amp;siteIdx=${siteInfo.siteIdx}" class="img-responsive" alt="<%=popup.getImgAltStr()%>" />
+  <%
+    } else {
+  %>
+          <%=popup.getRemark()%>
+  <%
+    }
+  %>
+        </a>
+      </li>
+  <%
+    idx++;
+  }
+  %>
+    </ul>
+    </div>
+    <div class="mPopupBtn">
+      <div class="cycle-pager" id="paging2"></div>
+      <a href="" class="vis_stop"><img src="${siteUrl}/common/img/btn_rolling_stop.png" alt="팝업 일시 정지" /></a>
+    </div>
+  </div>
+</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+
+
+   $(".mPopupImg").on("focusin", function(event) { // 아이디가 "focus"인 요소에 focusin 이벤트를 설정함.
+          		vis_stop = true;
+					$('.vis_stop > img').attr("src","${siteUrl}/common/img/btn_rolling_stop_on.png").attr("alt","팝업 재생");
+					$('.mPopupImg > .cycle-slideshow').cycle('pause');
+    });
+
+
+   $(".mPopupImg").on("focusout", function(event) { // 아이디가 "focus"인 요소에 focusin 이벤트를 설정함.
+          		vis_stop = false;
+					$('.vis_stop > img').attr("src","${siteUrl}/common/img/btn_rolling_stop.png").attr("alt","팝업 일시정지");
+					$('.mPopupImg > .cycle-slideshow').cycle('resume');
+
+	});
+
+
+		$(".mPopupBtn .cycle-pager a").each(function(index,item){
+			$(item).text($(".mPopupImg li:eq("+index+") a").text());
+			$(item).on('click, keyup',function(e){
+				let rtA11y = a11y(e);
+				//console.log('testtesttest');
+				if(rtA11y){
+					$(this).attr('title','선택됨').siblings().attr('title','');
+				}
+			});
+		});
+
+		function a11y(event) {
+		  if (event.type === 'click') return true;
+		  else if (event.type === 'keyup') {
+		    var code = event.charCode || event.keyCode;
+		    return ((code === 32) || (code === 13)); // 32 = 엔터, 13 = 스페이스 key값
+		  }
+		}
+
+		var vis_count = $(".mPopupImg").children().children().length;
+		var vis_stop = false;
+		$(".vis_stop").click(function(){
+			if( vis_count > 0 )
+			{
+				if( !vis_stop ){
+					vis_stop = true;
+					$('.vis_stop > img').attr("src","${siteUrl}/common/img/btn_rolling_stop_on.png").attr("alt","팝업 재생");
+					$('.mPopupImg > .cycle-slideshow').cycle('pause');
+				}else{
+					vis_stop = false;
+					$('.vis_stop > img').attr("src","${siteUrl}/common/img/btn_rolling_stop.png").attr("alt","팝업 일시정지");
+					$('.mPopupImg > .cycle-slideshow').cycle('resume');
+				}
+			}
+			return false;
+		});
+	});
+</script>

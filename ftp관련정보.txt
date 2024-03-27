@@ -1,0 +1,8 @@
+1. 이클립스에 플러그인 remote systems explorer를 설치
+2. https://itstudy402.tistory.com/10 설치 관련 정보
+
+이미지 ftp로 올리기
+3. 이미지 파일을 ftp로 직접 보낼 수가 없어서 폴더 동기화가 필요하다. 
+3-1. 원래 d:드라이브에 있는 작업 공간에 eclipse 등의 작업 폴더들이 있다면, eclipse에서 작업 윈도우에서 우클릭 import > General 하단의 Filesystem > 원하는 이미지 열고 들고 오면 된다. 
+3-2. ftp로 연결되어 있으면 3-1처럼 되지 않는다. 원하는 파일 업로드 하고 싶다면 우선 원하는 파일 동기화 (우클릭 > Synchronize Cache) > 메뉴 > File > import > General 하단의 Fiel system > 파일 찾고 into foler에서 RemoteSystemsTempFiles가 나타난다. 그곳 클릭하면 내가 싱크 캐시 폴더를 선택하면 동기화 된다. 
+
